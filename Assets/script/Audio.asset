@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Audio
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":-30.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"379cb097-3de4-4bb3-a798-78cbe2444757","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"chainable":false,"parameterNames":[],"member":{"name":"Play","parameterTypes":[],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null},"position":{"x":76.0,"y":-120.0},"guid":"e3feed10-d2ec-48be-913f-2910d9510f64","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"37a93036-b34b-45f9-ad53-b415d04c5ae9","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
